@@ -6,16 +6,13 @@ public class Main {
 
         ArrayList<User> users = new ArrayList<>();
 
-        User u1 = new User();
-        u1.setNama("Elkan");
-        u1.setUmur(20);
-
-        User u2 = new User();
-        u2.setNama("Baggot");
-        u2.setUmur(25);
+        User u1 = new User("Elkan", 20);
+        User u2 = new User("Baggot", 25);
+        User u3 = new User("Andi", 40);
 
         users.add(u1);
         users.add(u2);
+        users.add(u3);
 
         for (User u : users) {
             System.out.println("Nama: " + u.getNama() + ", Umur: " + u.getUmur());
