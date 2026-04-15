@@ -2,6 +2,8 @@ public class User {
     private String nama;
     private int umur;
 
+    // Encapsulation
+
     public String getNama() {
         return nama;
     }
