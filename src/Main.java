@@ -15,7 +15,7 @@ public class Main {
         users.add(u3);
 
         for (User u : users) {
-            System.out.println("Nama: " + u.getNama() + ", Umur: " + u.getUmur());
+            System.out.println(u);
         }
     }
 }

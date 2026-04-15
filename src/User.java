@@ -2,7 +2,6 @@ public class User {
     private String nama;
     private int umur;
 
-    // Constructor
     public User(String nama, int umur) {
         this.nama = nama;
         this.umur = umur;
@@ -14,5 +13,10 @@ public class User {
 
     public int getUmur() {
         return umur;
+    }
+
+    @Override
+    public String toString() {
+        return "Nama: " + nama + ", Umur: " + umur;
     }
 }
