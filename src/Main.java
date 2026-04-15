@@ -17,5 +17,19 @@ public class Main {
         for (User u : users) {
             System.out.println(u);
         }
+
+        // sample try catch
+        try {
+            int umur = -5;
+
+            if (umur < 0) {
+                throw new Exception("Umur tidak valid");
+            }
+
+            System.out.println("Umur: " + umur);
+
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        }
     }
 }
